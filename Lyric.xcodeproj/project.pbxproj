@@ -15,7 +15,6 @@
 		32799C411B7D8FE10023B115 /* pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32799C3E1B7D8FE10023B115 /* pause@2x.png */; };
 		32799C421B7D8FE10023B115 /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32799C3F1B7D8FE10023B115 /* play@2x.png */; };
 		32799C431B7D8FE10023B115 /* previous@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32799C401B7D8FE10023B115 /* previous@2x.png */; };
-		328360091B905B7900EF2D0D /* HTTPConnectionUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 328360081B905B7900EF2D0D /* HTTPConnectionUtility.m */; };
 		32B138651B733C1900360354 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B138641B733C1900360354 /* main.m */; };
 		32B138681B733C1900360354 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B138671B733C1900360354 /* AppDelegate.m */; };
 		32B1386B1B733C1900360354 /* lyricViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B1386A1B733C1900360354 /* lyricViewController.m */; };
@@ -67,8 +66,6 @@
 		32799C3E1B7D8FE10023B115 /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@2x.png"; sourceTree = "<group>"; };
 		32799C3F1B7D8FE10023B115 /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
 		32799C401B7D8FE10023B115 /* previous@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "previous@2x.png"; sourceTree = "<group>"; };
-		328360071B905B7900EF2D0D /* HTTPConnectionUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPConnectionUtility.h; sourceTree = SOURCE_ROOT; };
-		328360081B905B7900EF2D0D /* HTTPConnectionUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPConnectionUtility.m; sourceTree = SOURCE_ROOT; };
 		32B1385F1B733C1900360354 /* Lyric.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lyric.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32B138631B733C1900360354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32B138641B733C1900360354 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -143,8 +140,6 @@
 		32690BE51B8181CF0021831A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				328360071B905B7900EF2D0D /* HTTPConnectionUtility.h */,
-				328360081B905B7900EF2D0D /* HTTPConnectionUtility.m */,
 				32B138881B733C4B00360354 /* LyricView.h */,
 				32B138891B733C4B00360354 /* LyricView.m */,
 				32B1388D1B73426C00360354 /* Line.h */,
@@ -367,7 +362,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				32B1388F1B73426C00360354 /* Line.m in Sources */,
-				328360091B905B7900EF2D0D /* HTTPConnectionUtility.m in Sources */,
 				325FA3C81B9EE29400A92519 /* CustomCell.m in Sources */,
 				32B1388A1B733C4B00360354 /* LyricView.m in Sources */,
 				32B1386B1B733C1900360354 /* lyricViewController.m in Sources */,
